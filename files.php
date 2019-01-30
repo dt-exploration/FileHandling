@@ -6,7 +6,10 @@ echo readfile("D:/xampp/htdocs/symphart/public/Files/info.txt");
 //Metoda za informaciju o velicini fajla (u bajtovima)
 $file_size=filesize("D:/xampp/htdocs/symphart/public/Files/info.txt");
 
-//Metode koja se cesce koristi za manipulaciju fajlova - fopen + fread/fwrite
+//Metoda za proveru postojanja fajla (non void metoda, vraca true ako postoji fajl)
+file_exists("D:/xampp/htdocs/symphart/public/Files/info.txt");
+
+//Metode kojae se cesce koriste za manipulaciju fajlova - fopen + fread/fwrite
 
 //READ
 $file=fopen("D:/xampp/htdocs/symphart/public/Files/info.txt","r") or die();
