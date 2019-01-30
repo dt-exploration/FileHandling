@@ -14,14 +14,13 @@ echo fread($file,$file_size);
 fclose($file);
 
 //WRITE
-$file=fopen("D:/xampp/htdocs/symphart/public/Files/dt1txt","a") or die();
+$file=fopen("D:/xampp/htdocs/symphart/public/Files/dt1.txt","a") or die();
 $text_to_write="To je tacna informacija";
 fwrite($file,$text_to_write);
 fclose($file);
 
-
-
-
-
+//Ukljucivanje 3rd party scripta / fajla sa 2 razlicite metode
+include "D:/xampp/htdocs/symphart/public/Files/incl.php";
+require "D:/xampp/htdocs/symphart/public/Files/incl.php";
 
 ?>
