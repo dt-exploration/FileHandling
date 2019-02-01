@@ -6,6 +6,10 @@ echo readfile("D:/xampp/htdocs/symphart/public/Files/info.txt");
 //Metoda za informaciju o velicini fajla (u bajtovima)
 $file_size=filesize("D:/xampp/htdocs/symphart/public/Files/info.txt");
 
+//Metoda za informaciju o ekstenziji fajla
+$target_file="D:/xampp/htdocs/symphart/public/Files/info.txt";
+$file_extension=pathinfo($target_file, PATHINFO_EXTENSION);
+
 //Metoda za proveru postojanja fajla (non void metoda, vraca true ako postoji fajl)
 file_exists("D:/xampp/htdocs/symphart/public/Files/info.txt");
 
