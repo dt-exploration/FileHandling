@@ -17,13 +17,13 @@ file_exists("D:/xampp/htdocs/symphart/public/Files/info.txt");
 
 //READ
 $file = fopen("D:/xampp/htdocs/symphart/public/Files/info.txt","r") or die();
-echo fread($file,$file_size);
+echo fread($file, $file_size);
 fclose($file);
 
 //WRITE
 $file = fopen("D:/xampp/htdocs/symphart/public/Files/dt1.txt","a") or die();
-$text_to_write="To je tacna informacija";
-fwrite($file,$text_to_write);
+$text_to_write = "To je tacna informacija";
+fwrite($file, $text_to_write);
 fclose($file);
 
 //Ukljucivanje 3rd party scripta / fajla sa 2 razlicite metode
