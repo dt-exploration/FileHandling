@@ -26,8 +26,8 @@ if (isset($_POST["submit"])) {
     finfo_close($finfo);
 
     //0 => tip, 1 => ekstenzija
-    $file_info_matrix=explode("/", $s);
-    $file_info_matrix[1]=strtolower($file_info_matrix[1]);
+    $file_info_matrix = explode("/", $s);
+    $file_info_matrix[1] = strtolower($file_info_matrix[1]);
 
     if ($file_info_matrix[0] != "image") {
         echo "Fajl koji zelite da uploadujete nije slika";
