@@ -1,5 +1,5 @@
 AJAX = Asynchronous JavaScript and XML
-CSS = Cascading Style Sheets
+CSS = Cascading Style Sheet s
 HTML = Hyper Text Markup Language
 PHP = PHP Hypertext Preprocessor
 SQL = Structured Query Language
